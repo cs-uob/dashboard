@@ -26,7 +26,8 @@ body > h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.degree > h3 {
+.degree > span {
+  height: 3em;
   font-size: 0.9em;
   text-align: center;
 }
