@@ -4,8 +4,9 @@ layout: default
 
 <h1>BCSS Dashboard</h1> 
 
-<div id="timetables">
-    <h2>Timetables </h2>
+<fieldset>
+  <legend>Timetables</legend>
+  <div id="timetables">
     
   {% for degree in site.data.degrees.degrees %}
     <div class="degree">
@@ -17,5 +18,6 @@ layout: default
       </a>
     </div>
   {% endfor %}
+
   </div>
-</div>
+</fieldset>
