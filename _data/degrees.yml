@@ -1,0 +1,10 @@
+degrees:
+  - degree: Computer Science (MSc)
+    code: 4COSC005T1
+    years: [1]
+  - degree: Computer Science (BSc)
+    code: 4COSC006U
+    years: [1, 2, 3, 4]
+  - degree: Computer Science (MEng)
+    code: 4COSC008U
+    years: [1, 2, 3, 4]
