@@ -11,3 +11,15 @@ degrees:
   - name: Mathematics and Computer Science (MEng)
     code: 4COSC018U
     years: [1, 2, 3, 4]
+  - name: Computer Science and Electronics (BEng)
+    code: 4COSC015U
+    years: [1, 2, 3]
+  - name: Computer Science and Electronics (MEng)
+    code: 4COSC016U
+    years: [1, 2, 3, 4]
+  - name: Computer Science with Innovation (BEng)
+    code: 1INOV019U
+    years: [1, 2, 3]
+  - name: Computer Science with Innovation (MEng)
+    code: 1INOV006U
+    years: [1, 2, 3, 4]
