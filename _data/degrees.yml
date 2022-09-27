@@ -1,7 +1,4 @@
 degrees:
-  - name: Computer Science (MSc)
-    code: 4COSC005T
-    years: [1]
   - name: Computer Science (BSc)
     code: 4COSC006U
     years: [1, 2, 3]
@@ -23,3 +20,6 @@ degrees:
   - name: Computer Science with Innovation (MEng)
     code: 1INOV006U
     years: [1, 2, 3, 4]
+  - name: Computer Science (MSc)
+    code: 4COSC005T
+    years: [1]
