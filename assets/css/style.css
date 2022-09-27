@@ -34,6 +34,7 @@ body > h1 {
 #timetables {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .degree > .title {
