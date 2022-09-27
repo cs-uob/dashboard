@@ -4,20 +4,18 @@ layout: default
 
 <h1>BCSS Dashboard</h1> 
 
-<fieldset>
-  <legend>Timetables</legend>
-  <div id="timetables">
+<div id="timetables">
+    <h2>Timetables </h2>
     
   {% for degree in site.data.degrees.degrees %}
     <div class="degree">
       <h3>{{ degree.name }}</h3>
       {% for year in degree.years %}
       <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}">
-        <div class="nice-button">{{ degree.name }}</div>
+        <div class="nice-button">{{ degree.name }} Year {{ year }}</div>
       {% endfor %}
       </a>
     </div>
   {% endfor %}
-
   </div>
-</fieldset>
+</div>
