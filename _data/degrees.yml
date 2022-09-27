@@ -4,7 +4,10 @@ degrees:
     years: [1]
   - name: Computer Science (BSc)
     code: 4COSC006U
-    years: [1, 2, 3, 4]
+    years: [1, 2, 3]
   - name: Computer Science (MEng)
     code: 4COSC008U
+    years: [1, 2, 3, 4]
+  - name: Mathematics and Computer Science (MEng)
+    code: 4COSC018U
     years: [1, 2, 3, 4]

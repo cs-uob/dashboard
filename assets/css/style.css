@@ -5,6 +5,10 @@ body {
   max-width: 960px;
 }
 
+body > h1 {
+  align-text: center;
+}
+
 timetables {
   display: grid;
   grid-template-columns: 2;
