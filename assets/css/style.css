@@ -1,0 +1,20 @@
+body {
+  display: grid;
+  grid-template-columns: 1;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+timetables {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.nice-button {
+    text-align: center;
+    padding: 0.5em;
+    margin: 3em;
+    background: black;
+    color: #ffffff;
+    border: 0.5em ridge rgb(131, 18, 18);
+}
