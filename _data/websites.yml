@@ -9,6 +9,8 @@ websites:
     url: https://cs-uob.github.io/
   - name: eVision
     url: https://evision.apps.bristol.ac.uk/
+  - name: Pure (papers)
+    url: https://research-information.bris.ac.uk/pure
   - name: Blue (evals)
     url: https://evaluation.bristol.ac.uk/
   - name: Mailing lists

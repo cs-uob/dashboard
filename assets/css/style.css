@@ -36,6 +36,12 @@ body > h1 {
   text-align: center;
 }
 
+#websites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
 #timetables {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -54,8 +60,9 @@ body > h1 {
 
 .nice-button {
     text-align: center;
+    font-size: 0.8em;
     padding: 0.5em;
-    margin: 1em;
+    margin: 0.5em;
     background: black;
     color: #ffffff;
     border: 0.5em ridge rgb(131, 18, 18);
