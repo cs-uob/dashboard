@@ -1,0 +1,15 @@
+websites:
+  - name: Blackboard (BB)
+    url: https://www.ole.bris.ac.uk/
+  - name: Dept of CS (BB)
+    url: https://www.ole.bris.ac.uk/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_222169_1
+  - name: GitHub (org)
+    url: https://github.com/cs-uob
+  - name: GitHub (page)
+    url: https://cs-uob.github.io/
+  - name: eVision
+    url: https://evision.apps.bristol.ac.uk/
+  - name: Blue (evals)
+    url: https://evaluation.bristol.ac.uk/
+  - name: Mailing lists
+    url: https://uob.sharepoint.com/sites/predefined-groups/
