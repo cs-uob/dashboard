@@ -8,6 +8,16 @@ layout: default
 </header>
 
 <fieldset>
+  <legend>Websites</legend>
+  <div id="websites">
+    {% for website in site.data.websites.websites %}
+      <a href="{{ website.url }}">
+        <div class="nice-button">{{ website.name }}</div>
+    {% endfor %}
+  </div>
+</fieldset>
+
+<fieldset>
   <legend>Timetables</legend>
   <div id="timetables">
     

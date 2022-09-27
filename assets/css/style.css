@@ -12,6 +12,9 @@ header {
 header > h1 {
   text-align: center;
   font-size: 2em;
+  position: absolute;
+  float: center;
+  padding-top: 50%;
 }
 
 header > #BristolLogo {
