@@ -13,7 +13,7 @@ layout: default
     
   {% for degree in site.data.degrees.degrees %}
     <div class="degree">
-      <span>{{ degree.name }}</span>
+      <div class="title">{{ degree.name }}</div>
       {% for year in degree.years %}
       <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}">
         <div class="nice-button">Year {{ year }}</div>
