@@ -9,7 +9,12 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 
+header > h1 {
+  text-align: center;
+}
+
 header > #BristolLogo {
+  margin: 0 auto;
   max-height: 150px;
 }
 
