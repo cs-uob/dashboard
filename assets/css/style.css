@@ -39,6 +39,10 @@ body > h1 {
   grid-gap: 20px;
 }
 
+.degree {
+  margin: 0.5em;
+}
+
 .degree > .title {
   height: 3em;
   font-size: 0.9em;
