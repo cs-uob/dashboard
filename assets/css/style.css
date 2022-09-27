@@ -9,7 +9,7 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 
-header > h1 {
+header > div {
   text-align: center;
   font-size: 2em;
   position: absolute;
@@ -26,6 +26,7 @@ header > #BristolLogo {
 body {
   display: grid;
   grid-template-columns: 1; /* various gadgets, one at a time */
+  grid-gap: 50px;
   margin: 0 auto;
   max-width: 960px;
   color: white;
