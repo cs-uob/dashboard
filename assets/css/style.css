@@ -19,13 +19,13 @@ body > h1 {
 
 #timetables {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .nice-button {
     text-align: center;
     padding: 0.5em;
-    margin: 3em;
+    margin: 1em;
     background: black;
     color: #ffffff;
     border: 0.5em ridge rgb(131, 18, 18);
