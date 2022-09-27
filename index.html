@@ -15,11 +15,14 @@
       <legend>Timetables</legend>
       <div id="timetables">
         
+      {% for degree in site.data.degrees.degrees %}
+        <h3>{{ degree.name }}</h3>
         <div class="degree">
           <a href="lol">
-            <div class="nice-button">{{ item.title }}</div>
+            <div class="nice-button">{{ degree.name }}</div>
           </a>
         </div>
+      {% endfor %}
 
       </div>
     </fieldset>
