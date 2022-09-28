@@ -25,10 +25,10 @@ layout: default
     <div id="units">
       <div id="unitForm">
         <form action="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa" target="_blank">
-          <input type="list" list="unitList" name="unitCode" name="unit" placeholder="unit code"/>
+          <input type="list" list="unitList" id="unitCode" name="unitCode" placeholder="unit code"/>
           <datalist id="unitList"></datalist>
           <button>Lookup</button>
-          <button formaction="https://www.bristol.ac.uk/timetables/html.jsp">Timetable</button>
+          <button onclick="openTimetable()">Timetable</button>
         </form>
       </div>
     </div>
@@ -70,6 +70,14 @@ layout: default
 
   <script src="https://cs-uob.github.io/FACE/data.js"></script>
   <script>
+    
+    function openTimetable() {
+      let url = "https://www.bristol.ac.uk/timetables/html.jsp";
+      let unitCode = document.getElementById("unitCode");
+      url = url + "?" + "unit" + unitCode;
+      window.open(url);
+    }
+
     let u = document.getElementById("unitList");
     data.forEach(e => {
       let o = document.createElement("option");
