@@ -52,7 +52,7 @@ body > h1 {
   margin: 2em auto;
 }
 
-#units > #unitForm > #unitCode {
+#units > #unitForm > input {
   width: 50em;
 }
 
