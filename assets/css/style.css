@@ -2,11 +2,13 @@
 
 * {
   font-family: 'JetBrains Mono';
+  color: white;
+  background-color: black;
 }
 
 header {
   text-align: center;
-  margin: 3em auto 0 auto;
+  margin: 3em auto;
 }
 
 header > #BristolLogo {
@@ -21,8 +23,6 @@ header > #BristolLogo {
   grid-gap: 50px;
   margin: 0 auto;
   max-width: 960px;
-  color: white;
-  background-color: black;
 }
 
 body > h1 {
