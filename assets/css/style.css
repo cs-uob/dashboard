@@ -6,8 +6,7 @@
 
 header {
   text-align: center;
-  font-size: 2em;
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
 }
 
 header > #BristolLogo {
