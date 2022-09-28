@@ -56,6 +56,11 @@ body > h1 {
   text-align: center;
 }
 
+#studentData {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .nice-button {
     text-align: center;
     font-size: 0.8em;
