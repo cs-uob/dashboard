@@ -67,9 +67,9 @@ body > h1 {
   margin: 0 auto;
 }
 
-#studentData > div {
+#studentData > #studentForm {
   display: block;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 .nice-button {
