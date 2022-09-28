@@ -74,7 +74,7 @@ layout: default
     function openTimetable() {
       let url = "https://www.bristol.ac.uk/timetables/html.jsp";
       let unitCode = document.getElementById("unitCode");
-      url = url + "?" + "unit" + unitCode;
+      url = url + "?" + "unit" + unitCode.textContent;
       window.open(url);
     }
 
