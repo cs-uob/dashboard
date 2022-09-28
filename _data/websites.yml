@@ -31,3 +31,7 @@ websites:
     url: https://research-information.bris.ac.uk/pure
   - name: Mailing Lists
     url: https://uob.sharepoint.com/sites/predefined-groups/
+  - name: Almanac
+    url: http://www.bris.ac.uk/university/dates/
+  - name: FACE
+    url: https://cs-uob.github.io/FACE/index.html
