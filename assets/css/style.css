@@ -47,6 +47,11 @@ body > h1 {
   grid-gap: 20px;
 }
 
+#units {
+  display:grid;
+  grid-template-columns: 1;
+}
+
 .degree {
   margin: 0.5em;
 }
