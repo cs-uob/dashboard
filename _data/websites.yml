@@ -9,13 +9,23 @@ websites:
     url: https://cs-uob.github.io/
   - name: eVision
     url: https://evision.apps.bristol.ac.uk/
-  - name: Pure (papers)
-    url: https://research-information.bris.ac.uk/pure
   - name: Blue (evals)
     url: https://evaluation.bristol.ac.uk/
-  - name: Mailing lists
+  - name: TALIS (reading lists)
+    url: https://bristol.rl.talis.com/
+  - name: Room Timetables (Syllabus+)
+    url: https://www.bris.ac.uk/syllabus-plus/tt2022/location.asp    
+  - name: Room Booking (FENG)
+    url: https://uob.sharepoint.com/sites/engineering/SitePages/meetings_and_events.aspx
+  - name: Mailing Lists
     url: https://uob.sharepoint.com/sites/predefined-groups/
   - name: Regs (taught)
     url: https://www.bristol.ac.uk/academic-quality/assessment/codeonline.html
   - name: Regs (PGR)
     url: http://www.bristol.ac.uk/academic-quality/pg/pgrcode/
+  - name: FENG Handbook (taught)
+    url: http://www.bristol.ac.uk/engineering/current-students/taught-programme-handbook/
+  - name: IT Services
+    url: https://uob.sharepoint.com/sites/itservices
+  - name: Pure (papers)
+    url: https://research-information.bris.ac.uk/pure
