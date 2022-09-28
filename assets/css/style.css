@@ -80,7 +80,7 @@ body > h1 {
 #studentData > #tutees {
   grid-column: span 3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .nice-button {
@@ -111,6 +111,7 @@ input {
 button {
   color: white;
   background-color: black;
+  text-align: center;
   border: solid 2px rgb(131, 18, 18);
   font: 0.9em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
