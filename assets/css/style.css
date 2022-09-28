@@ -77,6 +77,12 @@ body > h1 {
   margin: 2em auto;
 }
 
+#studentData > #tutees {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .nice-button {
     text-align: center;
     font-size: 0.8em;
