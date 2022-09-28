@@ -35,3 +35,9 @@ websites:
     url: http://www.bris.ac.uk/university/dates/
   - name: FACE
     url: https://cs-uob.github.io/FACE/index.html
+  - name: myERP
+    url: https://myerp.bris.ac.uk/agresso/
+  - name: Develop
+    url: https://develop.bristol.ac.uk/
+  - name: OneDrive
+    url: https://uob-my.sharepoint.com/

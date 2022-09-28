@@ -52,6 +52,10 @@ body > h1 {
   grid-template-columns: 1;
 }
 
+#units > #unitForm {
+  margin: 2em auto;
+}
+
 .degree {
   margin: 0.5em;
 }
