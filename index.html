@@ -21,7 +21,11 @@ layout: default
 <fieldset>
   <legend>Student Data</legend>
   Search student on MyStudents:
-    <input>student ID</input>
+    <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do">
+      <input type="hidden" name="searchBy" value="student_no" />
+      <input type="search" name="searchText" placeholder="student id"/>
+      <button>Search</button>
+    </form>
 </fieldset>
 
 <fieldset>
