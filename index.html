@@ -28,7 +28,9 @@ layout: default
           <input type="list" list="unitList" id="unitCode" size="30" name="unitCode" placeholder="unit code"/>
           <datalist id="unitList"></datalist>
           <button>Catalogue</button>
-          <button type="button" id="unitTimetableButton" onclick="openTimetable()">Timetable</button>
+          <button type="button" onclick="openTimetable()">Timetable</button>
+          <button type="button" onclick="enrollment('TB-1')">Enrollment (TB-1)</button>
+          <button type="button" onclick="enrollment('TB-2')">Enrollment (TB-2)</button>
         </form>
       </div>
     </div>
@@ -77,9 +79,14 @@ layout: default
   <script>
     
     function openTimetable() {
-      let url = "https://www.bristol.ac.uk/timetables/html.jsp";
       let unitCode = document.getElementById("unitCode");
-      url = url + "?" + "unit=" + unitCode.value;
+      let url = `https://www.bristol.ac.uk/timetables/html.jsp?unit=${unitCode.value}`;
+      window.open(url);
+    }
+    
+    function enrollment(tb) {
+      let unitCode = document.getElementById("unitCode");
+      let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=${tb}`;
       window.open(url);
     }
 
