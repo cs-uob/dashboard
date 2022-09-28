@@ -83,6 +83,13 @@ body > h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.center {
+  display: flex;
+  height: 3em;
+  align-items: center;
+  text-align: center;
+}
+
 .nice-button {
     text-align: center;
     font-size: 0.8em;
