@@ -11,8 +11,8 @@ websites:
     url: https://evision.apps.bristol.ac.uk/
   - name: Blue (evals)
     url: https://evaluation.bristol.ac.uk/
-  - name: Library
-    url: http://www.bristol.ac.uk/library/  
+  - name: OneDrive
+    url: https://uob-my.sharepoint.com/
   - name: TALIS (reading lists)
     url: https://bristol.rl.talis.com/
   - name: Room Timetables (Syl+)
@@ -27,10 +27,6 @@ websites:
     url: http://www.bristol.ac.uk/engineering/current-students/taught-programme-handbook/
   - name: Mailing Lists
     url: https://uob.sharepoint.com/sites/predefined-groups/
-  - name: OneDrive
-    url: https://uob-my.sharepoint.com/
-  - name: Almanac
-    url: http://www.bris.ac.uk/university/dates/
   - name: FACE
     url: https://cs-uob.github.io/FACE/index.html
   - name: IT Services
@@ -45,4 +41,6 @@ websites:
     url: https://clarityportals.com/bristol_university-9995/  
   - name: Financial Services
     url: https://uob.sharepoint.com/sites/finance-services  
+  - name: Almanac
+    url: http://www.bris.ac.uk/university/dates/
     
