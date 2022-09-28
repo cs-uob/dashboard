@@ -56,9 +56,11 @@ layout: default
         <div id="tutees">
           <div>Tutees</div>
           {% for year in (1...4) %}
-          <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
-            <div class="nice-button">Year {{ year }}</div>
-          </a>
+          <div>
+            <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
+              <div class="nice-button">Year {{ year }}</div>
+            </a>
+          </div>
         </div>
         {% endfor %}
     </div>
