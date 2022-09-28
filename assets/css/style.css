@@ -4,10 +4,6 @@
   font-family: 'JetBrains Mono';
 }
 
-header {
-  margin: 3em auto;
-}
-
 header > div {
   text-align: center;
   font-size: 2em;
