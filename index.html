@@ -59,7 +59,7 @@ layout: default
     <div class="degree">
       <div class="title">{{ degree.name }}</div>
       {% for year in degree.years %}
-      <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}">
+      <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}" target="_blank">
         <div class="nice-button">Year {{ year }}</div>
       {% endfor %}
       </a>
