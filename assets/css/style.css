@@ -52,6 +52,10 @@ body > h1 {
   margin: 2em auto;
 }
 
+#units > #unitForm > #unitCode {
+  width: 30em;
+}
+
 .degree {
   margin: 0.5em;
 }
