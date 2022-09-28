@@ -15,7 +15,7 @@ header > #BristolLogo {
   max-height: 150px;
 }
 
-body {
+#applets {
   display: grid;
   grid-template-columns: 1; /* various gadgets, one at a time */
   grid-gap: 50px;
