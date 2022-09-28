@@ -9,12 +9,12 @@ websites:
     url: https://cs-uob.github.io/
   - name: eVision
     url: https://evision.apps.bristol.ac.uk/
-  - name: Blue (evals)
-    url: https://evaluation.bristol.ac.uk/
   - name: OneDrive
     url: https://uob-my.sharepoint.com/
   - name: TALIS (reading lists)
     url: https://bristol.rl.talis.com/
+  - name: Blue (evals)
+    url: https://evaluation.bristol.ac.uk/
   - name: Room Timetables (Syl+)
     url: https://www.bris.ac.uk/syllabus-plus/tt2022/location.asp    
   - name: Room Booking (FENG)
