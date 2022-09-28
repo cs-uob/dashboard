@@ -71,8 +71,9 @@ layout: default
 <script>
   let u = document.getElementById("unitList");
   data.forEach(e => {
-    let o = createElement("option");
+    let o = document.createElement("option");
     o.setAttribute("value", e.code);
+    o.textContent = e.code + " " + e.title;
     u.appendChild(o);
   });
 </script>
