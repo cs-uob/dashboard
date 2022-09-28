@@ -99,6 +99,7 @@ input {
   caret-color: red;
   font: 0.9em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
   border-radius: 5px;
+  margin: 0.1em;
 }
 
 button {
