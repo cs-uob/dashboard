@@ -52,12 +52,11 @@ body > h1 {
 }
 
 .degree {
-  display: grid;
-  grid-template-columns: 1;
   margin: 0.5em;
 }
 
 .degree > .title {
+  height: 4em;
   font-size: 0.9em;
   text-align: center;
 }
