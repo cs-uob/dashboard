@@ -96,6 +96,8 @@ input {
   color: white;
   background-color: black;
   border: solid 2px grey;
+  caret-color: red;
+  font: 1.2em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 button {
