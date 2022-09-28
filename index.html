@@ -53,11 +53,13 @@ layout: default
           <input type="search" name="searchText" placeholder="surname"/>
           <button>Search</button>
         </form>
-        <div>Tutees</div>
-        {% for year in (1...4) %}
-        <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
-          <div class="nice-button">Year {{ }}</div>
-        </a>
+        <div id="tutees">
+          <div>Tutees</div>
+          {% for year in (1...4) %}
+          <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
+            <div class="nice-button">Year {{ year }}</div>
+          </a>
+        </div>
         {% endfor %}
     </div>
   </fieldset>
