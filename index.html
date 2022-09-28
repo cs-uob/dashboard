@@ -44,13 +44,13 @@ layout: default
           <button>Search</button>
         </form>
         <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-          <input type="hidden" name="searchBy" value="surname" />
-          <input type="search" name="searchText" placeholder="surname"/>
+          <input type="hidden" name="searchBy" value="username" />
+          <input type="search" name="searchText" placeholder="username"/>
           <button>Search</button>
         </form>
         <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-          <input type="hidden" name="searchBy" value="username" />
-          <input type="search" name="searchText" placeholder="username"/>
+          <input type="hidden" name="searchBy" value="surname" />
+          <input type="search" name="searchText" placeholder="surname"/>
           <button>Search</button>
         </form>
     </div>
@@ -85,7 +85,7 @@ layout: default
     
     function enrollment() {
       let unitCode = document.getElementById("unitCode");
-      let tb = data.find(u => u.code === unitCode).tb;
+      let tb = data.find(u => u.code === unitCode.value).tb;
       let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=TB-${tb}`;
       window.open(url);
     }
