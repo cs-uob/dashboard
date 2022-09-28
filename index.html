@@ -83,7 +83,7 @@ layout: default
       window.open(url);
     }
     
-    function enrollment(tb) {
+    function enrollment() {
       let unitCode = document.getElementById("unitCode");
       let tb = data.find(u => u.code === unitCode).tb;
       let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=TB-${tb}`;
