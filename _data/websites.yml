@@ -43,6 +43,8 @@ websites:
     url: https://uob.sharepoint.com/sites/finance-services  
   - name: RED
     url: http://www.bristol.ac.uk/red/  
+  - name: SCEEM
+    url: https://uob.sharepoint.com/sites/sceem
   - name: Almanac
     url: http://www.bris.ac.uk/university/dates/
     
