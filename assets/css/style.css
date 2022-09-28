@@ -5,8 +5,7 @@
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr;
+  margin: 3em auto;
 }
 
 header > div {
