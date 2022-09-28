@@ -104,6 +104,7 @@ button {
   color: white;
   background-color: black;
   border: solid 2px rgb(131, 18, 18);
+  font: 1.2em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 footer {
