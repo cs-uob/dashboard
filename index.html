@@ -19,13 +19,21 @@ layout: default
 </fieldset>
 
 <fieldset>
-  <legend>Student Data</legend>
-  Search student on MyStudents:
+  <legend>Student Data (MyStudents)</legend>
+  <div>
     <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
       <input type="hidden" name="searchBy" value="student_no" />
       <input type="search" name="searchText" placeholder="student id"/>
       <button>Search</button>
     </form>
+  </div>
+  <div>
+    <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
+      <input type="hidden" name="searchBy" value="surname" />
+      <input type="search" name="searchText" placeholder="surname"/>
+      <button>Search</button>
+    </form>
+  </div>
 </fieldset>
 
 <fieldset>
