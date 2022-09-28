@@ -25,19 +25,24 @@ websites:
     url: http://www.bristol.ac.uk/academic-quality/pg/pgrcode/
   - name: FENG Handbook (taught)
     url: http://www.bristol.ac.uk/engineering/current-students/taught-programme-handbook/
-  - name: IT Services
-    url: https://uob.sharepoint.com/sites/itservices
-  - name: Pure (papers)
-    url: https://research-information.bris.ac.uk/pure
   - name: Mailing Lists
     url: https://uob.sharepoint.com/sites/predefined-groups/
+  - name: OneDrive
+    url: https://uob-my.sharepoint.com/
   - name: Almanac
     url: http://www.bris.ac.uk/university/dates/
   - name: FACE
     url: https://cs-uob.github.io/FACE/index.html
-  - name: myERP
-    url: https://myerp.bris.ac.uk/agresso/
+  - name: IT Services
+    url: https://uob.sharepoint.com/sites/itservices
+  - name: Pure (papers)
+    url: https://research-information.bris.ac.uk/pure
   - name: Develop
     url: https://develop.bristol.ac.uk/
-  - name: OneDrive
-    url: https://uob-my.sharepoint.com/
+  - name: myERP
+    url: https://myerp.bris.ac.uk/agresso/
+  - name: Clarity Travel
+    url: https://clarityportals.com/bristol_university-9995/  
+  - name: Financial Services
+    url: https://uob.sharepoint.com/sites/finance-services  
+    
