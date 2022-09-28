@@ -1,50 +1,73 @@
 websites:
   - name: Blackboard (BB)
     url: https://www.ole.bris.ac.uk/
+    alt: "Blackboard is the official university LMS, where all unit pages are hosted by default."
   - name: Dept of CS (BB)
     url: https://www.ole.bris.ac.uk/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_222169_1
+    alt: "Official hub page for the department hosted on Blackboard. Main port of call for exam information."
   - name: GitHub (org)
     url: https://github.com/cs-uob
+    alt: "Semi-official GitHub organisation for the dept. Ask around to obtain a repository for a unit here."
   - name: GitHub (page)
     url: https://cs-uob.github.io/
+    alt: "Department-run hub page for all CS unit pages, whether on Blackboard or not."
   - name: eVision
     url: https://evision.apps.bristol.ac.uk/
+    alt: "Official student info database, first port of call for logging tutorial attendance. Typically much slower and clunkier than MyStudents, but with access to slightly more info."
   - name: OneDrive
     url: https://uob-my.sharepoint.com/
+    alt: "GDPR-compliant cloud file hosting site. Staff and students get 2TB free."
   - name: TALIS (reading lists)
     url: https://bristol.rl.talis.com/
+    alt: "Library-assisted resource/reading lists for units, automatically integrates with Blackboard when populated."
   - name: Blue (evals)
     url: https://evaluation.bristol.ac.uk/
+    alt: "Bristol service for student evaluations of taught units."
   - name: Room Timetables
-    url: https://www.bris.ac.uk/syllabus-plus/tt2022/location.asp    
+    url: https://www.bris.ac.uk/syllabus-plus/tt2022/location.asp
+    alt: "Tool to see whether a given room is free for use."
   - name: Room Booking (FENG)
     url: https://uob.sharepoint.com/sites/engineering/SitePages/meetings_and_events.aspx
+    alt: "How to book rooms in the Faculty of Engineering."
   - name: Regs (taught)
     url: https://www.bristol.ac.uk/academic-quality/assessment/codeonline.html
+    alt: "University regulations an all taught programmes (undergraduate and masters)."
   - name: Regs (PGR)
     url: http://www.bristol.ac.uk/academic-quality/pg/pgrcode/
+    alt: "University regulations on PGR programmes (PhD students)."
   - name: FENG Handbook 
     url: http://www.bristol.ac.uk/engineering/current-students/taught-programme-handbook/
+    alt: "Engineering faculty student handbook, helpful for generic advice on administrative policies (e.g. how supplementary years work)."
   - name: Mailing Lists
     url: https://uob.sharepoint.com/sites/predefined-groups/
+    alt: "Mailing lists for every conceivable group of staff or students, including e.g. students taking any given unit."
   - name: FACE
     url: https://cs-uob.github.io/FACE/index.html
+    alt: "Friday Afternoon Curriculum Explorer: a department-run tool to help CS undergraduate students plan their unit choices."
   - name: IT Services
     url: https://uob.sharepoint.com/sites/itservices
+    alt: "University IT services."
   - name: Pure (papers)
     url: https://research-information.bris.ac.uk/pure
+    alt: "University-run open-access paper repository for REF etc. Also plugs into the university website."
   - name: Develop
     url: https://develop.bristol.ac.uk/
+    alt: "University training system."
   - name: myERP
     url: https://myerp.bris.ac.uk/agresso/
+    alt: "University budget system. Some advice on using it can be found on the SharePoint."
   - name: Clarity Travel
     url: https://clarityportals.com/bristol_university-9995/  
+    alt: "Travel agent. All UoB travel must be booked through them."
   - name: Financial Services
     url: https://uob.sharepoint.com/sites/finance-services  
+    alt: "Help on finance procedures and using MyERP."
   - name: RED
-    url: http://www.bristol.ac.uk/red/  
+    url: http://www.bristol.ac.uk/red/
+    alt: "Research and Enterprise Division: provides advice on grant applications, working with businesses, and the REF."
   - name: CS internal website
     url: https://uob.sharepoint.com/teams/grp-ComputerScience568 
+    alt: "Private department-run Sharepoint with useful advice specific to CS staff on e.g. tutoring."
   - name: Almanac
     url: http://www.bris.ac.uk/university/dates/
-    
+    alt: "Official source of dates for teaching block, assessment periods, graduations etc."

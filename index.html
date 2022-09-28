@@ -13,7 +13,7 @@ layout: default
     <legend>Websites</legend>
     <div id="websites">
       {% for website in site.data.websites.websites %}
-        <a href="{{ website.url }}" target="_blank">
+        <a href="{{ website.url }}" alt="{{ website.alt }}" target="_blank">
           <div class="nice-button">{{ website.name }}</div>
         </a>
       {% endfor %}
