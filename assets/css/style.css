@@ -97,14 +97,14 @@ input {
   background-color: black;
   border: solid 2px grey;
   caret-color: red;
-  font: 1.2em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
+  font: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 button {
   color: white;
   background-color: black;
   border: solid 2px rgb(131, 18, 18);
-  font: 1.2em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
+  font: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 footer {
