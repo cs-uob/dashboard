@@ -70,9 +70,11 @@ layout: default
       
     {% for degree in site.data.degrees.degrees %}
       <div class="degree">
-        <a href="https://www.bris.ac.uk/unit-programme-catalogue/RouteStructure.jsa?programmeCode={{ degree.code }}">
-          <div class="title">{{ degree.name }}</div>
-        </a>
+          <div class="title">
+            <a href="https://www.bris.ac.uk/unit-programme-catalogue/RouteStructure.jsa?programmeCode={{ degree.code }}">
+            {{ degree.name }}
+            </a>
+          </div>
         {% for year in degree.years %}
         <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}" target="_blank">
           <div class="nice-button">Year {{ year }}</div>
