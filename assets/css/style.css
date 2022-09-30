@@ -92,11 +92,9 @@ body > h1 {
 }
 
 .nice-button {
-    height: 3em;
-    text-align: center;
     font-size: 0.8em;
     padding: 0.5em;
-    margin: 0.5em;
+    margin: 0.5em auto;
     background: black;
     color: #ffffff;
     border: 0.5em ridge rgb(131, 18, 18);
