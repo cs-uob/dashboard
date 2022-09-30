@@ -57,7 +57,7 @@ layout: default
           <div class="center">Tutees</div>
           {% for year in (1...4) %}
             <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
-              <div class="nice-button">Year {{ year }}</div>
+              <div class="nice-button smaller-button">Year {{ year }}</div>
             </a>
           {% endfor %}
         </div>
@@ -77,7 +77,7 @@ layout: default
           </div>
         {% for year in degree.years %}
         <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}" target="_blank">
-          <div class="nice-button">Year {{ year }}</div>
+          <div class="nice-button smaller-button">Year {{ year }}</div>
         {% endfor %}
         </a>
       </div>
