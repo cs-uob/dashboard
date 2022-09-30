@@ -65,12 +65,7 @@ body > h1 {
 }
 
 .degree > .title {
-  display: flex;
-  align-items:center;
-  height: 3em;
   font-size: 0.8em;
-  justify-content: center;
-  text-align: center;
 }
 
 #degree-4COSC005T {
@@ -102,6 +97,7 @@ body > h1 {
   margin: 0 auto;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .nice-button {
