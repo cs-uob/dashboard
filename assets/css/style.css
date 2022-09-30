@@ -39,13 +39,14 @@ body > h1 {
 #timetables {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
   margin: 2em 0 0 0;
 }
 
 #units {
   display:grid;
   grid-template-columns: 1;
+  grid-gap: 15px;
 }
 
 #units > #unitForm {
@@ -69,6 +70,7 @@ body > h1 {
 #studentData {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
   margin: 0 auto;
 }
 
@@ -93,10 +95,9 @@ body > h1 {
 
 .nice-button {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 3em;
-    clear: left;
-    text-align: center;
+    height: 2.5em;
     font-size: 0.8em;
     padding: 0.5em;
     background: black;
