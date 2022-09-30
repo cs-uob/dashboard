@@ -70,6 +70,10 @@ body > h1 {
   text-align: center;
 }
 
+#degree-4COSC005T {
+  grid-column: span 4;
+}
+
 #studentData {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
