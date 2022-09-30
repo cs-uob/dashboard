@@ -111,7 +111,7 @@ input {
   background-color: black;
   border: solid 2px grey;
   caret-color: red;
-  font: 0.9em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
+  font: 0.8em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
   border-radius: 5px;
   margin: 0.1em;
 }
@@ -121,7 +121,7 @@ button {
   background-color: black;
   text-align: center;
   border: solid 2px rgb(131, 18, 18);
-  font: 0.9em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
+  font: 0.8em "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 footer {
