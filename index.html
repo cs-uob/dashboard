@@ -10,96 +10,14 @@ layout: default
 <div id="applets">
   
   {% include websites.html %}
+  
+  {% include units.html %}
+  
+  {% include students.html %}
 
-  <fieldset>
-    <legend>Units</legend>
-    <div id="units">
-      <div id="unitForm">
-        <form action="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa" target="_blank">
-          <input type="list" list="unitList" id="unitCode" size="30" name="unitCode" placeholder="unit code"/>
-          <datalist id="unitList"></datalist>
-          <button>Catalogue</button>
-          <button type="button" onclick="openTimetable()">Timetable</button>
-          <button type="button" onclick="enrollment()">Enrollment</button>
-        </form>
-      </div>
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <legend>Student Data [<a href="https://www.bristol.ac.uk/mystudents/">MyStudents</a>]</legend>
-    <div id="studentData">
-        <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-          <input type="hidden" name="searchBy" value="student_no" />
-          <input type="search" name="searchText" placeholder="student id"/>
-          <button>Search</button>
-        </form>
-        <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-          <input type="hidden" name="searchBy" value="username" />
-          <input type="search" name="searchText" placeholder="username"/>
-          <button>Search</button>
-        </form>
-        <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-          <input type="hidden" name="searchBy" value="surname" />
-          <input type="search" name="searchText" placeholder="surname"/>
-          <button>Search</button>
-        </form>
-        <div id="tutees">
-          <div class="center">Tutees</div>
-          {% for year in (1...4) %}
-            <a href="https://www.bristol.ac.uk/mystudents/TuteesList.do?programme_year={{ year }}" target="_blank">
-              <div class="nice-button smaller-button">Year {{ year }}</div>
-            </a>
-          {% endfor %}
-        </div>
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <legend>Degrees & Timetables</legend>
-    <div id="timetables">
-      
-    {% for degree in site.data.degrees.degrees %}
-      <div class="degree" id="degree-{{ degree.code }}">
-          <div class="center title">
-            <a href="https://www.bris.ac.uk/unit-programme-catalogue/RouteStructure.jsa?programmeCode={{ degree.code }}" target="_blank">
-            {{ degree.name }}
-            </a>
-          </div>
-          {% for year in degree.years %}
-          <a href="https://www.bristol.ac.uk/timetables/html.jsp?pos={{ degree.code }}{{ year }}" target="_blank">
-            <div class="nice-button smaller-button">Year {{ year }}</div>
-          {% endfor %}
-          </a>
-      </div>
-    {% endfor %}
-
-    </div>
-  </fieldset>
+  {% include degrees.html %}
 
   <script src="https://cs-uob.github.io/FACE/data.js"></script>
-  <script>
-    
-    function openTimetable() {
-      let unitCode = document.getElementById("unitCode");
-      let url = `https://www.bristol.ac.uk/timetables/html.jsp?unit=${unitCode.value}`;
-      window.open(url);
-    }
-    
-    function enrollment() {
-      let unitCode = document.getElementById("unitCode");
-      let tb = data.find(u => u.code === unitCode.value).tb;
-      let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=TB-${tb}`;
-      window.open(url);
-    }
-
-    let u = document.getElementById("unitList");
-    data.forEach(e => {
-      let o = document.createElement("option");
-      o.setAttribute("value", e.code);
-      o.textContent = e.code + " " + e.title;
-      u.appendChild(o);
-    });
-  </script>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/script.js"></script>
 
 </div>
