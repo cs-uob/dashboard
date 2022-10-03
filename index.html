@@ -8,17 +8,8 @@ layout: default
 </header>
 
 <div id="applets">
-
-  <fieldset>
-    <legend>Websites</legend>
-    <div id="websites">
-      {% for website in site.data.websites.websites %}
-        <a href="{{ website.url }}" title="{{ website.alt }}" target="_blank">
-          <div class="nice-button">{{ website.name }}</div>
-        </a>
-      {% endfor %}
-    </div>
-  </fieldset>
+  
+  {% include websites.html %}
 
   <fieldset>
     <legend>Units</legend>
