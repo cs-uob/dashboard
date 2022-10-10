@@ -18,6 +18,6 @@ layout: default
   {% include degrees.html %}
 
   <script src="https://cs-uob.github.io/FACE/data.js"></script>
-  <script src="{{ base.url | prepend: site.url }}/assets/js/script.js"></script>
+  <script src={{ "/assets/js/script.js" | absolute_url }}></script>
 
 </div>
