@@ -7,6 +7,7 @@ function openTimetable() {
 function enrollment() {
   let unitCode = document.getElementById("unitCode");
   let tb = data.find(u => u.code === unitCode.value).tb;
+  if (tb === undefined) { alert("Not a CS unit, cannot determine TB."); return; }
   let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=TB-${tb}`;
   window.open(url);
 }
