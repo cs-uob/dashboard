@@ -21,7 +21,7 @@ websites:
     url: https://bristol.rl.talis.com/
     alt: "Library-assisted resource/reading lists for units, automatically integrates with Blackboard when populated."
   - name: Blue (evals)
-    url: https://evaluation.bristol.ac.uk/
+    url: https://evaluation.bristol.ac.uk/home
     alt: "Bristol service for student evaluations of taught units."
   - name: Room Timetables
     url: https://www.bris.ac.uk/syllabus-plus/tt2022/location.asp
