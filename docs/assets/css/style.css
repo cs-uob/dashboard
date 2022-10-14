@@ -58,10 +58,13 @@ body > h1 {
 }
 
 #units > #levels {
-  grid-column: span 3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+}
+
+#units > p {
+  grid-column: span 3;
 }
 
 .degree {
