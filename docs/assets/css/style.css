@@ -91,6 +91,13 @@ body > h1 {
   grid-gap: 15px;
 }
 
+#studentData > #ugs {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
 .center {
   display: flex;
   height: 3em;
