@@ -57,6 +57,13 @@ body > h1 {
   width: 60em;
 }
 
+#units > #levels {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
 .degree {
   display: grid;
   grid-template-columns: 1fr;

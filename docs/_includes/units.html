@@ -10,5 +10,13 @@
         <button type="button" onclick="enrollment()">Enrollment</button>
       </form>
     </div>
+    <div id="levels">
+      <div class="center">By level</div>
+      {% for level in [1, 2, 3, 7] %}
+        <a href="https://www.bristol.ac.uk/mystudents/UnitsInDepts.do?fac_code=ENGF&dept_code=COSC&level_code={{ level }}" target="_blank">
+          <div class="nice-button smaller-button">Level {{ level }}</div>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </fieldset>
