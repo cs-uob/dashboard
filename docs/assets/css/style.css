@@ -63,8 +63,8 @@ body > h1 {
   grid-gap: 15px;
 }
 
-#units > p {
-  grid-column: span 3;
+#units > #levels > p {
+  grid-column: span 4;
 }
 
 .degree {
