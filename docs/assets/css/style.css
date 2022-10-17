@@ -67,6 +67,10 @@ body > h1 {
   grid-column: 2 / 6;
 }
 
+#units > #FACE {
+  max-width: 50em;
+}
+
 .degree {
   display: grid;
   grid-template-columns: 1fr;
