@@ -14,10 +14,18 @@
       <div class="center">By level</div>
       {% for level in site.data.levels.levels %}
         <a href="https://www.bristol.ac.uk/mystudents/UnitsInDepts.do?fac_code=ENGF&dept_code=COSC&level_code={{ level }}" target="_blank">
-          <div class="nice-button smaller-button">Level {{ level }}</div>
+          <div class="nice-button smaller-button">
+            Level {{ level }}
+            {% if level == '3' %}
+              (Y3)
+            {% endif %}
+            {% if level == '7' %}
+              (Y4/MSc)
+            {% endif %}
+          </div>
         </a>
       {% endfor %}
-      <p><small>Note: use the Level 3 button for Y3/4 TB-2 units.</small></p>
+      <p><small>Note: use the Level 3 button for Y3/4 TB-2 "teaching" unit codes.</small></p>
     </div>
   </div>
 </fieldset>
