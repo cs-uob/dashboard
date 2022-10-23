@@ -3,13 +3,14 @@
   <div id="studentData">
       <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
         <input type="hidden" name="searchBy" value="student_no" />
-        <input type="search" name="searchText" placeholder="student id"/>
+        <input id="StuID" type="search" name="searchText" placeholder="student id"/>
         <button>Search</button>
       </form>
       <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
         <input type="hidden" name="searchBy" value="username" />
-        <input type="search" name="searchText" placeholder="username"/>
+        <input id="stuUser" type="search" name="searchText" placeholder="username"/>
         <button>Search</button>
+        <button type="button" onclick="openStudentTimetable()">Timetable</button>
       </form>
       <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
         <input type="hidden" name="searchBy" value="surname" />

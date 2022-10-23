@@ -1,6 +1,11 @@
-function openTimetable() {
+function openUnitTimetable() {
   let unitCode = document.getElementById("unitCode");
   let url = `https://www.bristol.ac.uk/timetables/html.jsp?unit=${unitCode.value}`;
+  window.open(url);
+}
+function openUnitTimetable() {
+  let unitCode = document.getElementById("unitCode");
+  let url = `https://www.bristol.ac.uk/timetables/html.jsp?student=${stuUser.value}`;
   window.open(url);
 }
 
