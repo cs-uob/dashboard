@@ -78,7 +78,7 @@ body > h1 {
   margin: 0.5em;
 }
 
-.degree {
+.degree-name {
   display: flex;
   justify-content: center;
   align-items: center;
