@@ -138,6 +138,10 @@ body > h1 {
   height: 1.5em;
 }
 
+.note {
+  margin-left: 2em;
+}
+
 a:link { text-decoration: none; color: white; }
 a:visited { text-decoration: none; color: white; }
 a:hover { text-decoration: none; }
