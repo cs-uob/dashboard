@@ -71,15 +71,28 @@ body > h1 {
   max-width: 50em;
 }
 
-.degree {
+.degrees {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
   margin: 0.5em;
 }
 
-.degree > .title {
+.degrees > .title {
   font-size: 0.8em;
+}
+
+.degree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 2.5em;
+  font-size: 0.8em;
+  padding: 0.5em;
+  background: black;
+  color: #ffffff;
+  border: 0.5em ridge rgb(27, 11, 250);
 }
 
 #degree-4COSC005T {
