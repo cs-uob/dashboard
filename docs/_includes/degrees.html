@@ -1,14 +1,14 @@
 <fieldset>
   <legend>Degrees & Timetables</legend>
-  <div id="timetables">
     
   <p>Click on the name of a degree to read its programme specification (catalogue).</p>
     
+  <div id="degrees">
   {% for degree in site.data.degrees.degrees %}
-    <div class="degrees" id="degree-{{ degree.code }}">
+    <div class="degree" id="degree-{{ degree.code }}">
         <div class="center title">
           <a href="https://www.bris.ac.uk/unit-programme-catalogue/RouteStructure.jsa?programmeCode={{ degree.code }}" target="_blank">
-            <div class="degree">{{ degree.name }}</div>
+            <div class="degree-name">{{ degree.name }}</div>
           </a>
         </div>
         {% for year in degree.years %}
