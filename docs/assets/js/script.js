@@ -1,20 +1,20 @@
 function openUnitTimetable() {
   let unitCode = document.getElementById("unitCode");
-  let url = `https://www.bristol.ac.uk/timetables/html.jsp?unit=${unitCode.value}`;
+  let url = `https://www.bristol.ac.uk/timetables/html.jsp?unit=${unitCode.value.trim()}`;
   window.open(url);
 }
 
 function openStudentTimetable() {
-  let unitCode = document.getElementById("unitCode");
-  let url = `https://www.bristol.ac.uk/timetables/html.jsp?student=${stuUser.value}`;
+  let stuUser = document.getElementById("stuUser");
+  let url = `https://www.bristol.ac.uk/timetables/html.jsp?student=${stuUser.value.trim()}`;
   window.open(url);
 }
 
 function enrollment() {
   let unitCode = document.getElementById("unitCode");
-  let unit = data.find(u => u.code === unitCode.value);
+  let unit = data.find(u => u.code === unitCode.value.trim());
   if (unit === undefined) { alert("Not a CS unit, cannot determine TB."); return; }
-  let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value}&teaching_block=TB-${unit.tb}`;
+  let url = `https://www.bristol.ac.uk/mystudents/StudentsByUnit.do?unit_code=${unitCode.value.trim()}&teaching_block=TB-${unit.tb.trim()}`;
   window.open(url);
 }
 
