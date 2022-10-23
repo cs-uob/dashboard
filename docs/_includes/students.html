@@ -2,6 +2,11 @@
   <legend>Student Data [<a href="https://www.bristol.ac.uk/mystudents/">MyStudents</a>]</legend>
   <div id="studentData">
       <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
+        <input type="hidden" name="searchBy" value="surname" />
+        <input type="search" name="searchText" placeholder="surname"/>
+        <button>Search</button>
+      </form>
+      <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
         <input type="hidden" name="searchBy" value="student_no" />
         <input id="StuID" type="search" name="searchText" placeholder="student id"/>
         <button>Search</button>
@@ -11,11 +16,6 @@
         <input id="stuUser" type="search" name="searchText" placeholder="username"/>
         <button>Search</button>
         <button type="button" onclick="openStudentTimetable()">Timetable</button>
-      </form>
-      <form action="https://www.bristol.ac.uk/mystudents/ProcessSearch.do" target="_blank">
-        <input type="hidden" name="searchBy" value="surname" />
-        <input type="search" name="searchText" placeholder="surname"/>
-        <button>Search</button>
       </form>
       <div id="tutees">
         <div class="center">My Tutees</div>
