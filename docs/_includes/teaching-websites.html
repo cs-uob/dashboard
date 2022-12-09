@@ -1,0 +1,10 @@
+<fieldset>
+  <legend>Teaching and admin websites</legend>
+  <div class="websites">
+    {% for website in site.data.teaching_websites.websites %}
+      <a href="{{ website.url }}" title="{{ website.alt }}" target="_blank">
+        <div class="nice-button">{{ website.name }}</div>
+      </a>
+    {% endfor %}
+  </div>
+</fieldset>

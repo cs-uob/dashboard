@@ -1,0 +1,19 @@
+websites:
+  - name: Pure
+    url: https://research-information.bris.ac.uk/pure
+    alt: "University-run open-access paper repository for REF etc. Also plugs into the university website."
+  - name: Worktribe
+    url: https://bristol.worktribe.com
+    alt: "University-run platform for developing budgets for grant proposals"
+  - name: RED
+    url: http://www.bristol.ac.uk/red/
+    alt: "Research and Enterprise Division: provides advice on grant applications, working with businesses, and the REF."
+  - name: RED SharePoint
+    url: https://uob.sharepoint.com/sites/red-rd
+    alt: "SharePoint for the Research and Enterprise Division"
+  - name: RED - Current Funding
+    url: https://uob.sharepoint.com/sites/red-rd/SitePages/funding-opportunities-external-by-faculty.aspx
+    alt: "List of current funding calls maintained by RED"
+  - name: Research Professional
+    url: https://researchprofessional.com/
+    alt: "Website containing funding calls and tips for writing grant applications"
