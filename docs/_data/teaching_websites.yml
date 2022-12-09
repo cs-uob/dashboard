@@ -47,9 +47,6 @@ websites:
   - name: Almanac
     url: http://www.bris.ac.uk/university/dates/
     alt: "Official source of dates for teaching block, assessment periods, graduations etc."
-  - name: Pure (papers)
-    url: https://research-information.bris.ac.uk/pure
-    alt: "University-run open-access paper repository for REF etc. Also plugs into the university website."
   - name: Develop
     url: https://develop.bristol.ac.uk/
     alt: "University training system."
